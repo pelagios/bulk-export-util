@@ -1,0 +1,21 @@
+#######################################
+# Recogito access information
+#######################################
+RECOGITO_URL = 'https://recogito.pelagios.org'
+
+# Your user credentials
+RECOGITO_USER = 'test'
+RECOGITO_PW = 'test'
+
+#######################################
+# Config for 'download' script
+#######################################
+
+# If you want to download the contents of a 
+# folder in your Recogito workspace, set the folder ID here.
+# Set to False to download from the workspace root
+DOWNLOAD_FOLDER = False # 'f65b8f0f-d510-42b2-945f-d28f92743c14'
+
+# Destination folder (on your machine) where downloaded annotation 
+# should be stored
+DOWNLOAD_ANNOTATIONS_TO = './downloads'
